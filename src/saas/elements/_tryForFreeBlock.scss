@@ -8,13 +8,14 @@
 	margin-top: 56px;
 }
 .logo {
-	margin-right: 24px;
-	margin-top: 24px;
+	position: relative;
+	left: 24px;
+	top: 24px;
 }
 .tryForFree_title {
 	color: var(--textAccent);
 	margin-left: 24px;
-	margin-top: 24px;
+	margin-top: 50px;
 	font-weight: 600;
 	font-size: 32px;
 	line-height: 48px;
@@ -74,5 +75,8 @@
 .css-button-shadow-border-sliding--green:active {
 	top: 2px;
 }
-.search_block_svg {
+.tryForFreeBlockSvg {
+	position: relative;
+	top: -240px;
+	left: 740px;
 }

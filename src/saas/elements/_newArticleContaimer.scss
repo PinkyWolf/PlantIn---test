@@ -11,7 +11,8 @@
 	align-items: center;
 }
 .new_article_svg {
-	margin-top: 48px;
+	position: relative;
+	top: -16px;
 }
 .article_timing {
 	color: var(--textDate);
