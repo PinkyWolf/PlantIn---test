@@ -1,0 +1,32 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+img {
+	display: block;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+body {
+	font-family: 'Poppins';
+	background-color: var(--bg);
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+a {
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+a:hover {
+	color: var(--textAccent);
+}

@@ -1,0 +1,15 @@
+.container {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+
+	@include from(tablet) {
+		padding: 0;
+		width: getRange('tablet');
+	}
+	@include from(desktop) {
+		padding: 0;
+		width: getRange('desktop');
+	}
+}

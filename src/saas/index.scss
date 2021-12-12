@@ -1,0 +1,16 @@
+/// UTILS
+@import './utils/functions';
+@import './utils/variables';
+@import './utils/mixin';
+
+/// BASIC
+@import './basic/root';
+@import './basic/container';
+@import './basic/main';
+
+/// ELEMENTS
+@import './elements/header';
+@import './elements/searchContainer';
+@import './elements/newArticleContaimer';
+@import './elements/articleLisrContainer';
+@import './elements/tryForFreeBlock';

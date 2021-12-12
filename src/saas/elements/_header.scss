@@ -1,0 +1,17 @@
+.nav_list_container {
+	padding-left: 175px;
+	background-color: #fff;
+	height: 64px;
+	width: 100%;
+}
+.nav_menu_list {
+	list-style-type: none;
+}
+li {
+	display: inline-block;
+	padding-right: 24px;
+	padding-top: 13px;
+	font-family: 'Poppins';
+	font-weight: 500;
+	color: #262626;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "plantin---test",
+  "version": "1.0.0",
+  "description": "PlantIn blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --no-minify --public-url ./"
+  },
+  "author": "Serhii Hult",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.9.4",
+    "parcel-plugin-handlebars-precompile": "^0.2.0",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "infinite-scroll": "^4.0.1",
+    "template": "^0.17.5"
+  }
+}
