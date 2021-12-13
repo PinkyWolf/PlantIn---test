@@ -5,16 +5,16 @@ console.log(text);
 async function fetchWeather() {
 	let key = 'dd47af45cbc9862e2129c021a8f27e21';
 	let city = 'Kyiv';
-	let url = `api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`;
+	let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}`;
 	//fetch the weather
-	const response = await fetch(url)
+	fetch(url)
 		.then(response => {
 			return response.json();
 		})
 		.then(data => {
 			console.log(data);
+			text.innerHTML = `Current temperature is: ${data.main.temp}°C`;
 		});
-	return await response.json();
 }
 
 fetchWeather();
